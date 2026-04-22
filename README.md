@@ -180,7 +180,7 @@ export default {
 1. Run `npm run dev`
 2. Open `http://localhost:5173`
 3. Open DevTools (F12) → Network tab
-4. Filter by `sdk.core-relay.org`
+4. Filter by `some.website.com`
 5. Browse products and complete checkout
 6. Watch tracking events fire:
 
@@ -209,7 +209,7 @@ This is **completely normal on localhost**. ServerTrack sends data server-side w
 ### Events Not Firing
 - Check browser console for errors
 - Verify `AUTH_KEY` is correct in `src/utils/servertrack.js`
-- Ensure SDK loaded — check Network tab for `sdk.core-relay.org`
+- Ensure SDK loaded — check Network tab for `some.website.com`
 
 ### content_type Error
 All content events require `content_type: 'product'` in the payload. This is already included in all events in this demo.
