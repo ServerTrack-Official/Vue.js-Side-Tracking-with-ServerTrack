@@ -31,7 +31,7 @@ npm install
 3. Configure ServerTrack in `src/utils/servertrack.js`:
 ```javascript
 const AUTH_KEY = 'YOUR_AUTH_KEY'
-const SERVER_DOMAIN = 'sdk.core-relay.org'
+const SERVER_DOMAIN = 'some.website.com'
 ```
 
 ## Usage
